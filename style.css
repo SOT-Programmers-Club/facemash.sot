@@ -1,0 +1,59 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: block;
+    background-color: brown;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 8px 0px;
+    margin-top: 0;
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+#caption {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#choose-title {
+    margin-top: 4px;
+    font-size: 48px;
+}
+
+.photos {
+    display: table;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#left,
+#right {
+    width: 400px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#left:hover,
+#right:hover {
+    cursor: pointer;
+}
+
+#or {
+    display: table-cell;
+    vertical-align: middle;
+}
