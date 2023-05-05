@@ -14,17 +14,3 @@
     <div class="container">
         <p id="caption">Were we let into tech for our looks? No. Will we be judged on them? Yes.</p>
         <h2 id="choose-title">Who looks better? Click to Choose.</h2>
-    </div>
-    <div class="photos">
-        <img src="img/244.png" alt="" id="left">
-        <div id="or">
-            <span>OR</span>
-        </div>
-
-        <img src="img/258.png" alt="" id="right">
-    </div>
-    <script src="app.js"></script>
-    <p class="p"> Made by OUR <a href="zuck"><strong>Mark Zuckerberg</strong></a>
-</body>
-
-<body>
