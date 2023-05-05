@@ -1,9 +1,3 @@
-# face-mash
-Facemash for hacked-students
-
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,64 +28,3 @@ Facemash for hacked-students
 </body>
 
 <body>
-
-    <div class="overlay" data-overlay></div>
-
-  <!--
-    - MODAL
-  -->
-
-  <div class="modal" data-modal>
-
-    <div class="modal-close-overlay" data-modal-overlay></div>
-
-    <div class="modal-content">
-
-      <button class="modal-close-btn" data-modal-close>
-        <ion-icon name="close-outline"></ion-icon>
-      </button>
-
-      <div class="newsletter-img">
-        <img src="./n.png" alt="subscribe newsletter" width="400" height="400">
-      </div>
-
-      <div class="newsletter">
-
-        <form action="#">
-
-          <div class="newsletter-header">
-
-            <h3 class="newsletter-title">New Photos Everyday.</h3>
-
-            <p class="newsletter-desc">
-              Checkout <b>Facemash</b> to see new faces everyday.
-            </p>
-
-          </div>
-
-          <!--<input type="email" name="email" class="email-field" placeholder="Email Address" required>
-          <button type="submit" class="btn-newsletter">Subscribe</button>-->
-
-        </form>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-</body>
-
-</html>
