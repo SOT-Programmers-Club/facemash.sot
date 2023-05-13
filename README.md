@@ -7,4 +7,4 @@
         <h2 id="choose-title">Who looks better? Click to Choose.</h2>
     </div>
     
-##"sot-programmers-club.github.io/facemash.sot"
+https://sot-programmers-club.github.io/facemash.sot
