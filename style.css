@@ -48,6 +48,15 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 768px) {
+    #left,
+    #right {
+        width: 200px; /* Adjust this value as needed for smaller screens */
+        height: 350px; /* Adjust this value as needed for smaller screens */
+    }
+}
+
+
 #left:hover,
 #right:hover {
     cursor: pointer;
