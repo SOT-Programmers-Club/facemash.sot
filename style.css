@@ -20,8 +20,9 @@ body {
 }
 
 .container {
-    display: block;
-    text-align: center;
+    max-width: 960px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center-align text within the container */
 }
 
 @media (max-width: 768px) {
@@ -29,7 +30,6 @@ body {
         max-width: 50%; /* Adjust this value as needed for smaller screens */
     }
 }
-
 
 #caption {
     font-weight: 600;
