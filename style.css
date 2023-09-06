@@ -51,8 +51,8 @@ body {
 @media (max-width: 768px) {
     #left,
     #right {
-        width: 200px; /* Adjust this value as needed for smaller screens */
-        height: 350px; /* Adjust this value as needed for smaller screens */
+        width: 100px; /* Adjust this value as needed for smaller screens */
+        height: 175px; /* Adjust this value as needed for smaller screens */
     }
 }
 
