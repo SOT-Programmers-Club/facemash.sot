@@ -25,12 +25,6 @@ body {
     text-align: center; /* Center-align text within the container */
 }
 
-@media (max-width: 768px) {
-    .container {
-        max-width: 50%; /* Adjust this value as needed for smaller screens */
-    }
-}
-
 #caption {
     font-weight: 600;
     font-size: 18px;
@@ -44,7 +38,7 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     #choose-title {
-        font-size: 36px; /* Adjust this value as needed for smaller screens */
+        font-size: 18px; /* Adjust this value as needed for smaller screens */
     }
 }
 
