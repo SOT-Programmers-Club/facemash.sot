@@ -24,6 +24,13 @@ body {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .container {
+        max-width: 50%; /* Adjust this value as needed for smaller screens */
+    }
+}
+
+
 #caption {
     font-weight: 600;
     font-size: 18px;
