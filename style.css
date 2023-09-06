@@ -41,6 +41,14 @@ body {
     font-size: 48px;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #choose-title {
+        font-size: 36px; /* Adjust this value as needed for smaller screens */
+    }
+}
+
+
 .photos {
     display: table;
     text-align: center;
