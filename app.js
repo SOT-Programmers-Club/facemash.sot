@@ -15,7 +15,7 @@ right.addEventListener('click', function () {
 
 function getImage() {
     let zero = '0';
-    let number = Math.ceil((Math.random() * 733));
+    let number = Math.ceil((Math.random() * 737));
     console.log(number)
     if (number != 10) { // creating the file number by adding zeroW
         number = number;
