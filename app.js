@@ -1,34 +1,29 @@
-document.addEventListener('DOMContentLoaded', () => {
-    leftNum = getImage();
-    rightNum = getImage();
-    
-    // Ensure leftNum and rightNum are not the same
-    while (rightNum === leftNum) {
-        rightNum = getImage();
-    }
-    
-    left.setAttribute('src', `img/${leftNum}.png`);
-    right.setAttribute('src', `img/${rightNum}.png`);
-});
+let left = document.getElementById('left');
+let right = document.getElementById('right');
+
+var leftNum;
+var rightNum;
 
 left.addEventListener('click', function () {
-    let newRightNum;
-    do {
-        newRightNum = getImage();
-    } while (newRightNum === leftNum);
-    rightNum = newRightNum;
-    right.setAttribute('src', `img/${rightNum}.png`);
+    rightNum = getImage();
+    right.setAttribute('src', `img/${rightNum}.png`)
 });
-
 right.addEventListener('click', function () {
-    let newLeftNum;
-    do {
-        newLeftNum = getImage();
-    } while (newLeftNum === rightNum);
-    leftNum = newLeftNum;
-    left.setAttribute('src', `img/${leftNum}.png`);
+    leftNum = getImage();
+    left.setAttribute('src', `img/${leftNum}.png`)
 });
 
 function getImage() {
-    return Math.ceil(Math.random() * 783);
+    let zero = '0';
+    let number = Math.ceil((Math.random() * 830));
+    console.log(number)
+    if (number != 10) { // creating the file number by adding zeroW
+        number = number;
+    }
+
+    if (number != leftNum && number != rightNum) {
+        return number;
+    } else {
+        return getImage();
+    }
 }
